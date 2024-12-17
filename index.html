@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio</title>
+
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <a href="#" class="logo">Protfolio</a>
+      <nav>
+        <ul class="nav-menu">
+          <li class="active"><a href="#about">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="bars-animation">
+      <div class="bar" style="--i: 6"></div>
+      <div class="bar" style="--i: 5"></div>
+      <div class="bar" style="--i: 4"></div>
+      <div class="bar" style="--i: 3"></div>
+      <div class="bar" style="--i: 2"></div>
+      <div class="bar" style="--i: 1"></div>
+    </div>
+    <!-- About Section -->
+    <section id="about" class="about">
+      <div class="about-content">
+        <h1>Hi, I'm &nbsp; Mohamed Infaq</h1>
+        <h2>
+          I'm a
+          <span style="--i: 0" data-text="Web Developer">Web Developer</span>
+        </h2>
+
+        <p>
+          I'm a web developer/designer passionate about creating beautiful and
+          functional websites. I have a strong foundation in HTML, CSS, and
+          JavaScript, and I'm constantly learning and improving my skills to
+          deliver high-quality web solutions. I'm dedicated to staying
+          up-to-date with the latest web development trends and technologies,
+          and I'm always looking for new opportunities to work on challenging
+          projects.
+        </p>
+        <div class="btn-scl">
+          <a href="#" class="btn">Download CV</a>
+
+          <div class="scl">
+            <a href="#"><i class="bx bxl-github"></i></a>
+            <a href="#"><i class="bx bxl-linkedin"></i></a>
+            <a href="#"><i class="bx bxl-twitter"></i></a>
+            <a href="#"><i class="bx bxl-facebook-circle"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="home-img">
+        <div class="img-box">
+          <div class="img-item">
+            <img
+              src="image/profile.jpg"
+              alt="Profile Picture"
+              class="profile-pic"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+      <h2>My Projects</h2>
+      <div class="projects-grid">
+        <div class="project">
+          <img src="image/tourisam.jpg" alt="Project Tourism Management" />
+          <h3>Tourism Management</h3>
+          <h5>PHP | JavaScript | MySQL | HTML | CSS</h5>
+          <p>
+            An all-in-one platform designed to streamline travel planning,
+            bookings, and itinerary management for tourists and agencies.
+            Enhance your travel experience with ease and efficiency.
+          </p>
+        </div>
+
+        <div class="project">
+          <img src="image/e-com.avif" alt="Project e-commerce website" />
+          <h3>Online Shop</h3>
+          <h5>React | JavaScript | MongoDB | Express.js | HTML | CSS</h5>
+          <p>
+            A modern e-commerce platform offering a seamless online shopping
+            experience with features like user authentication, product catalog,
+            dynamic cart management, and secure payment integration. Built for
+            scalability and performance using MERN stack technology.
+          </p>
+        </div>
+
+        <div class="project">
+          <img src="image/tsk.png" alt="Project 3" />
+          <h3>Task Management</h3>
+          <h5>React | JavaScript | MongoDB | Express js | HTML | CSS</h5>
+          <p>
+            web application that allows users to efficiently manage their tasks
+            and projects. It provides features for Curd operation and
+            prioritizing tasks, as well as setting deadlines and tracking
+            progress.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <form>
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <textarea name="message" placeholder="Your Message" required></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p>© 2024 Personal Portfolio | Follow me on:</p>
+      <ul class="social-links">
+        <li><a href="#">Twitter</a></li>
+        <li><a href="#">LinkedIn</a></li>
+        <li><a href="#">GitHub</a></li>
+      </ul>
+    </footer>
+  </body>
+</html>
